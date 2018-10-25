@@ -1,0 +1,22 @@
+1540420405488	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "-marionette" "-foreground" "-no-remote" "-profile" "/var/folders/51/x10fq2v17xl8qz65s0_81mm00000gn/T/rust_mozprofile.c8gkbYe00Si5"
+2018-10-24 15:33:28.098 plugin-container[53727:2003419] *** CFMessagePort: bootstrap_register(): failed 1100 (0x44c) 'Permission denied', port = 0x833b, name = 'com.apple.tsm.portname'
+See /usr/include/servers/bootstrap_defs.h for the error codes.
+2018-10-24 15:33:28.683 plugin-container[53727:2003419] unable to obtain configuration from file:///Library/Preferences/com.apple.ViewBridge.plist due to Error Domain=NSCocoaErrorDomain Code=257 "The file “com.apple.ViewBridge.plist” couldn’t be opened because you don’t have permission to view it." UserInfo={NSFilePath=/Library/Preferences/com.apple.ViewBridge.plist, NSUnderlyingError=0x10c4e7220 {Error Domain=NSPOSIXErrorDomain Code=1 "Operation not permitted"}}
+2018-10-24 15:33:28.687 plugin-container[53727:2003431] +[NSXPCSharedListener endpointForReply:withListenerName:]: an error occurred while attempting to obtain endpoint for listener 'ClientCallsAuxiliary': Connection invalid
+2018-10-24 15:33:28.737 plugin-container[53730:2003455] *** CFMessagePort: bootstrap_register(): failed 1100 (0x44c) 'Permission denied', port = 0x8643, name = 'com.apple.tsm.portname'
+See /usr/include/servers/bootstrap_defs.h for the error codes.
+2018-10-24 15:33:28.924 plugin-container[53730:2003455] unable to obtain configuration from file:///Library/Preferences/com.apple.ViewBridge.plist due to Error Domain=NSCocoaErrorDomain Code=257 "The file “com.apple.ViewBridge.plist” couldn’t be opened because you don’t have permission to view it." UserInfo={NSFilePath=/Library/Preferences/com.apple.ViewBridge.plist, NSUnderlyingError=0x11282a820 {Error Domain=NSPOSIXErrorDomain Code=1 "Operation not permitted"}}
+2018-10-24 15:33:28.928 plugin-container[53730:2003467] +[NSXPCSharedListener endpointForReply:withListenerName:]: an error occurred while attempting to obtain endpoint for listener 'ClientCallsAuxiliary': Connection invalid
+2018-10-24 15:33:29.433 plugin-container[53731:2003534] *** CFMessagePort: bootstrap_register(): failed 1100 (0x44c) 'Permission denied', port = 0x6b3b, name = 'com.apple.tsm.portname'
+See /usr/include/servers/bootstrap_defs.h for the error codes.
+1540420409515	Marionette	INFO	Listening on port 56910
+1540420409620	Marionette	WARN	TLS certificate errors will be ignored for this session
+1540420409700	Marionette	DEBUG	[4294967297] Frame script loaded
+1540420409717	Marionette	DEBUG	[4294967297] Frame script registered
+2018-10-24 15:33:29.754 plugin-container[53731:2003534] unable to obtain configuration from file:///Library/Preferences/com.apple.ViewBridge.plist due to Error Domain=NSCocoaErrorDomain Code=257 "The file “com.apple.ViewBridge.plist” couldn’t be opened because you don’t have permission to view it." UserInfo={NSFilePath=/Library/Preferences/com.apple.ViewBridge.plist, NSUnderlyingError=0x1164e8340 {Error Domain=NSPOSIXErrorDomain Code=1 "Operation not permitted"}}
+2018-10-24 15:33:29.758 plugin-container[53731:2003539] +[NSXPCSharedListener endpointForReply:withListenerName:]: an error occurred while attempting to obtain endpoint for listener 'ClientCallsAuxiliary': Connection invalid
+1540420409800	Marionette	DEBUG	[4294967297] Received DOM event beforeunload for about:blank
+1540420410060	Marionette	DEBUG	[4294967297] Received DOM event pagehide for about:blank
+1540420412487	Marionette	DEBUG	[4294967297] Received DOM event DOMContentLoaded for http://127.0.0.1:8001/#/login
+1540420413091	Marionette	DEBUG	[4294967297] Received DOM event pageshow for http://127.0.0.1:8001/#/login
+1540420418140	Marionette	INFO	Stopped listening on port 56910
